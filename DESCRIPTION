@@ -1,0 +1,15 @@
+Package: repliCATS
+Title: Access The repliCATS Datasets
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "David", 
+                    family = "Wilkinson", 
+                    role = c("aut", "cre"),
+                    email = "david.wilkinson.research@gmail.com",
+                    comment = structure("0000-0002-9560-6499", .Names = "ORCID"))
+Description: This is a data package to access all publicly released repliCATS datasets.
+License: TBD
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
