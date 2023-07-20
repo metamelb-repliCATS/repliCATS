@@ -137,7 +137,7 @@ SIPS_priors <- pins::pin_get("anon_SIPS_priors",
 quiz_scores <- pins::pin_get("anon_quiz_scores",
           board = "github")
 
-demographics <- pins::pin("anon_demographics_SCORE",
+demographics <- pins::pin_get("anon_demographics_SCORE",
           board = "github")
 
 ##----
