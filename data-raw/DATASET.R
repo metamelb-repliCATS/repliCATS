@@ -1,3 +1,9 @@
+#####################
+### Load Packages ###
+#####################
+
+library(tidyverse)
+
 ###########################
 ### Connect to database ###
 ###########################
@@ -141,6 +147,124 @@ demographics <- pins::pin_get("anon_demographics_SCORE",
           board = "github")
 
 ##----
+
+######################################################
+### Clean reasoning code names for R package usage ###
+######################################################
+
+p1_reasons <- p1_reasons %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
+
+p1_reasons_no_ICR <- p1_reasons_no_ICR %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
+
+p2_reasons <- p2_reasons %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
+
+p2_reasons_no_ICR <- p2_reasons_no_ICR %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")}) %>%
+  dplyr::select(-RW_Blank_statement,
+                -RW_Review_codes___team,
+                -RW_Interesting_content,
+                -RW_Review_codes___analyst)
+
+covid_reasons <- covid_reasons %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
+
+covid_reasons_no_ICR <- covid_reasons_no_ICR %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
+
+bushel_reasons <- bushel_reasons %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
+
+bushel_reasons_no_ICR <- bushel_reasons_no_ICR %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
+
+SIPS_reasons <- SIPS_reasons %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
+
+SIPS_reasons_no_ICR <- SIPS_reasons_no_ICR %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "&", 
+                                            replacement = "and")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = ",|\\(|\\)|_\\)|:|_\\(\\+\\)|\\.", 
+                                            replacement = "")}) %>%
+  dplyr::rename_with(.fn = function(x){gsub(x = x, 
+                                            pattern = "-", 
+                                            replacement = "_")})
 
 ###################################
 ### Add Data Objects to Package ###

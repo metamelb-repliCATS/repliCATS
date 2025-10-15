@@ -10,10 +10,10 @@ A tibble with 1,515 rows and 11 column variables:
 \item{paper_id}{Unique, alphanumeric identifier for the paper/claim being assessed.}
 \item{user_name}{Unique, anonymised, alphanumeric identifier for the participant.}
 \item{RW01_Plausibility}{Number of times a participant used this reason on this paper.}
-\item{RW09_blinding_(single_or_double)}{Number of times a participant used this reason on this paper.}
+\item{RW09_blinding_single_or_double}{Number of times a participant used this reason on this paper.}
 \item{RW11_Effect_size}{Number of times a participant used this reason on this paper.}
 \item{RW15_power_adequacy_and_or_sample_size}{Number of times a participant used this reason on this paper.}
-\item{RW16_Significance,\emph{statistical}(p-value_etc_)}{Number of times a participant used this reason on this paper.}
+\item{RW16_Significance_statistical_p_value_etc}{Number of times a participant used this reason on this paper.}
 \item{RW23_discipline_and_area_of_research_reputation}{Number of times a participant used this reason on this paper.}
 \item{RW24_journal_reputation}{Number of times a participant used this reason on this paper.}
 \item{group}{Elicitation group the participant belonged to.}
