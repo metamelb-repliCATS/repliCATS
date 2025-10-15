@@ -13,14 +13,14 @@
 #' \item{RW04_Date_of_publication}{Number of times a participant used this reason on this paper.}
 #' \item{RW15_Effect_size}{Number of times a participant used this reason on this paper.}
 #' \item{RW16_Interaction_effect}{Number of times a participant used this reason on this paper.}
-#' \item{RW17_Interval_or_range_measure_for_statistical_uncertainty_(CI_SD_etc)}{Number of times a participant used this reason on this paper.}
+#' \item{RW17_Interval_or_range_measure_for_statistical_uncertainty_CI_SD_etc}{Number of times a participant used this reason on this paper.}
 #' \item{RW18_Outside_participants_areas_of_expertise}{Number of times a participant used this reason on this paper.}
 #' \item{RW20_Plausibility}{Number of times a participant used this reason on this paper.}
-#' \item{RW21_Population_or_subject_characteristics_(sampling_practices)}{Number of times a participant used this reason on this paper.}
+#' \item{RW21_Population_or_subject_characteristics_sampling_practices}{Number of times a participant used this reason on this paper.}
 #' \item{RW22_Power_adequacy_or_sample_size}{Number of times a participant used this reason on this paper.}
 #' \item{RW32_Reputation}{Number of times a participant used this reason on this paper.}
 #' \item{RW37_Revision_statements}{Number of times a participant used this reason on this paper.}
-#' \item{RW42_Significance_statistical_(p-value_etc_)}{Number of times a participant used this reason on this paper.}
+#' \item{RW42_Significance_statistical_p_value_etc}{Number of times a participant used this reason on this paper.}
 #' }
 #' @examples
 #' SIPS_reasons
