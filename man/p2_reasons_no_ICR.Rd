@@ -9,29 +9,29 @@ A tibble with 4,164 rows and 26 column variables:
 \describe{
 \item{paper_id}{Unique, alphanumeric identifier for the paper/claim being assessed.}
 \item{user_name}{Unique, anonymised, alphanumeric identifier for the participant.}
-\item{RW:_Analysis_quality}{Number of times a participant used this reason on this paper.}
-\item{RW:_Calibration_of_finding}{Number of times a participant used this reason on this paper.}
-\item{RW:_Design_quality}{Number of times a participant used this reason on this paper.}
-\item{RW:_Details_of_documentation}{Number of times a participant used this reason on this paper.}
-\item{RW:_Domain_knowledge}{Number of times a participant used this reason on this paper.}
-\item{RW:_Effect_size}{Number of times a participant used this reason on this paper.}
-\item{RW:_Errors_and_inconsistencies}{Number of times a participant used this reason on this paper.}
-\item{RW:_Interaction_effect}{Number of times a participant used this reason on this paper.}
-\item{RW:_Measurement_reliability}{Number of times a participant used this reason on this paper.}
-\item{RW:\emph{Personal_knowledge}(+)}{Number of times a participant used this reason on this paper.}
-\item{RW:_Plausibility}{Number of times a participant used this reason on this paper.}
-\item{RW:_Population_or_subject_characteristics}{Number of times a participant used this reason on this paper.}
-\item{RW:_Publication_date}{Number of times a participant used this reason on this paper.}
-\item{RW:_Quality_of_data_used}{Number of times a participant used this reason on this paper.}
-\item{RW:_Questionable_practices}{Number of times a participant used this reason on this paper.}
-\item{RW:_Reporting_of_power_or_sample_size_calculations}{Number of times a participant used this reason on this paper.}
-\item{RW:_Reputation_of_an_author,_team,_or_institution}{Number of times a participant used this reason on this paper.}
-\item{RW:_Reputation_of_field_of_research}{Number of times a participant used this reason on this paper.}
-\item{RW:_Reputation_of_journal}{Number of times a participant used this reason on this paper.}
-\item{RW:_Revision_of_comprehension}{Number of times a participant used this reason on this paper.}
-\item{RW:_Sample_size_or_power_adequacy}{Number of times a participant used this reason on this paper.}
-\item{RW:\emph{Statistical_significance}(p-values,_etc)}{Number of times a participant used this reason on this paper.}
-\item{RW:_Uncertainty,_statistical_measures}{Number of times a participant used this reason on this paper.}
+\item{RW_Analysis_quality}{Number of times a participant used this reason on this paper.}
+\item{RW_Calibration_of_finding}{Number of times a participant used this reason on this paper.}
+\item{RW_Design_quality}{Number of times a participant used this reason on this paper.}
+\item{RW_Details_of_documentation}{Number of times a participant used this reason on this paper.}
+\item{RW_Domain_knowledge}{Number of times a participant used this reason on this paper.}
+\item{RW_Effect_size}{Number of times a participant used this reason on this paper.}
+\item{RW_Errors_and_inconsistencies}{Number of times a participant used this reason on this paper.}
+\item{RW_Interaction_effect}{Number of times a participant used this reason on this paper.}
+\item{RW_Measurement_reliability}{Number of times a participant used this reason on this paper.}
+\item{RW_Personal_knowledge}{Number of times a participant used this reason on this paper.}
+\item{RW_Plausibility}{Number of times a participant used this reason on this paper.}
+\item{RW_Population_or_subject_characteristics}{Number of times a participant used this reason on this paper.}
+\item{RW_Publication_date}{Number of times a participant used this reason on this paper.}
+\item{RW_Quality_of_data_used}{Number of times a participant used this reason on this paper.}
+\item{RW_Questionable_practices}{Number of times a participant used this reason on this paper.}
+\item{RW_Reporting_of_power_or_sample_size_calculations}{Number of times a participant used this reason on this paper.}
+\item{RW_Reputation_of_an_author_team_or_institution}{Number of times a participant used this reason on this paper.}
+\item{RW_Reputation_of_field_of_research}{Number of times a participant used this reason on this paper.}
+\item{RW_Reputation_of_journal}{Number of times a participant used this reason on this paper.}
+\item{RW_Revision_of_comprehension}{Number of times a participant used this reason on this paper.}
+\item{RW_Sample_size_or_power_adequacy}{Number of times a participant used this reason on this paper.}
+\item{RW_Statistical_significance_p_values_etc}{Number of times a participant used this reason on this paper.}
+\item{RW_Uncertainty_statistical_measures}{Number of times a participant used this reason on this paper.}
 }
 }
 \usage{
