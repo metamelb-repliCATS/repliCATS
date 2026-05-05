@@ -101,3 +101,6 @@
 #' @examples
 #' demographics
 "demographics"
+
+#' @importFrom tibble tibble
+NULL
